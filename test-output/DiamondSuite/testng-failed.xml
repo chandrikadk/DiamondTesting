@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DiamondSuite]">
+  <test thread-count="5" name="DiaTest(failed)">
+    <classes>
+      <class name="dia.masters.general.CurrencyTest">
+        <methods>
+          <include name="loginToDiamond"/>
+          <include name="loginInvalidCredentialsTest"/>
+          <include name="closeDriver"/>
+          <include name="alaunchDiamondApp"/>
+        </methods>
+      </class> <!-- dia.masters.general.CurrencyTest -->
+      <class name="dia.masters.general.GeoLocTest">
+        <methods>
+          <include name="loginToDiamond"/>
+          <include name="loginInvalidCredentialsTest"/>
+          <include name="closeDriver"/>
+          <include name="alaunchDiamondApp"/>
+        </methods>
+      </class> <!-- dia.masters.general.GeoLocTest -->
+      <class name="dia.masters.general.CommonTest">
+        <methods>
+          <include name="loginToDiamond"/>
+          <include name="loginInvalidCredentialsTest"/>
+          <include name="closeDriver"/>
+          <include name="alaunchDiamondApp"/>
+        </methods>
+      </class> <!-- dia.masters.general.CommonTest -->
+    </classes>
+  </test> <!-- DiaTest(failed) -->
+</suite> <!-- Failed suite [DiamondSuite] -->

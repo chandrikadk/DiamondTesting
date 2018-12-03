@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="11" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="109920" started-at="2018-12-03T09:42:18Z" finished-at="2018-12-03T09:44:08Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="109920" started-at="2018-12-03T09:42:18Z" finished-at="2018-12-03T09:44:08Z">
+      <class name="dia.masters.general.GeoLocTest">
+        <test-method status="PASS" signature="geoLocTest()[pri:1, instance:dia.masters.general.GeoLocTest@4cc0edeb]" name="geoLocTest" duration-ms="9030" started-at="2018-12-03T09:42:24Z" finished-at="2018-12-03T09:42:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- geoLocTest -->
+        <test-method status="PASS" signature="addGeoLocTest()[pri:2, instance:dia.masters.general.GeoLocTest@4cc0edeb]" name="addGeoLocTest" duration-ms="4666" started-at="2018-12-03T09:42:34Z" finished-at="2018-12-03T09:42:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addGeoLocTest -->
+        <test-method status="PASS" signature="addZoneTest()[pri:3, instance:dia.masters.general.GeoLocTest@4cc0edeb]" name="addZoneTest" duration-ms="107" started-at="2018-12-03T09:42:38Z" finished-at="2018-12-03T09:42:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addZoneTest -->
+        <test-method status="PASS" signature="verifyAddZoneWithEmptyFieldsTest()[pri:4, instance:dia.masters.general.GeoLocTest@4cc0edeb]" name="verifyAddZoneWithEmptyFieldsTest" duration-ms="41235" started-at="2018-12-03T09:42:38Z" finished-at="2018-12-03T09:43:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddZoneWithEmptyFieldsTest -->
+        <test-method status="PASS" signature="verifyZoneFieldLengthsTest()[pri:5, instance:dia.masters.general.GeoLocTest@4cc0edeb]" name="verifyZoneFieldLengthsTest" duration-ms="44048" started-at="2018-12-03T09:43:20Z" finished-at="2018-12-03T09:44:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyZoneFieldLengthsTest -->
+        <test-method status="PASS" signature="verifyAddZoneTest()[pri:6, instance:dia.masters.general.GeoLocTest@4cc0edeb]" name="verifyAddZoneTest" duration-ms="3287" started-at="2018-12-03T09:44:04Z" finished-at="2018-12-03T09:44:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddZoneTest -->
+        <test-method status="PASS" signature="editZoneTest()[pri:7, instance:dia.masters.general.GeoLocTest@4cc0edeb]" name="editZoneTest" duration-ms="961" started-at="2018-12-03T09:44:07Z" finished-at="2018-12-03T09:44:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editZoneTest -->
+      </class> <!-- dia.masters.general.GeoLocTest -->
+      <class name="nmbr.diamond.DiamondLoginTest">
+        <test-method status="PASS" signature="launchDiamondApp()[pri:0, instance:nmbr.diamond.DiamondLoginTest@7823a2f9]" name="launchDiamondApp" is-config="true" duration-ms="62532" started-at="2018-12-03T09:41:15Z" finished-at="2018-12-03T09:42:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchDiamondApp -->
+        <test-method status="PASS" signature="loginInvalidCredentialsTest()[pri:0, instance:nmbr.diamond.DiamondLoginTest@7823a2f9]" name="loginInvalidCredentialsTest" duration-ms="5644" started-at="2018-12-03T09:42:18Z" finished-at="2018-12-03T09:42:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidCredentialsTest -->
+        <test-method status="PASS" signature="loginValidCredentialsTest()[pri:0, instance:nmbr.diamond.DiamondLoginTest@7823a2f9]" name="loginValidCredentialsTest" duration-ms="847" started-at="2018-12-03T09:42:24Z" finished-at="2018-12-03T09:42:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidCredentialsTest -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:nmbr.diamond.DiamondLoginTest@7823a2f9]" name="closeDriver" is-config="true" duration-ms="3543" started-at="2018-12-03T09:44:08Z" finished-at="2018-12-03T09:44:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- nmbr.diamond.DiamondLoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
